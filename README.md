@@ -22,9 +22,12 @@ This repository contains a Docker Compose setup to run Apache Spark locally, inc
    ```
 3. **Access Jupyter through Browser:**
    Open your browser and go to:
+   ``` bash
    localhost:8888
+   ```
 
 5. **Stop the Cluster:**
    To stop and remove the containers, run:
    ``` bash
   docker-compose down
+  ```

@@ -1,0 +1,16 @@
+services:
+  spark:
+    build:
+      dockerfile: Dockerfile
+    container_name: practice-spark
+    volumes:
+      - ./work_dir:/work_dir:rw
+    ports:
+      - 8888:8888
+      - 8080:8080
+      - 4040:4040
+      - 18080:18080
+      - 8081:7077
+    stdin_open: true
+    tty: true
+    image: armaan1gohil/jupyter-pyspark:v1

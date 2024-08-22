@@ -29,5 +29,5 @@ This repository contains a Docker Compose setup to run Apache Spark locally, inc
 5. **Stop the Cluster:**
    To stop and remove the containers, run:
    ``` bash
-  docker-compose down
-  ```
+   docker-compose down
+   ```

@@ -26,7 +26,10 @@ This repository contains a Docker Compose setup to run Apache Spark locally, inc
    localhost:8888
    ```
 
-5. **Stop the Cluster:**
+4. **Open pyspark-practice**:
+   Start the file and execute the code.
+
+6. **Stop the Cluster:**
    To stop and remove the containers, run:
    ``` bash
    docker-compose down

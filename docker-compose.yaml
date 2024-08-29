@@ -11,4 +11,3 @@ services:
       - 7077:7077
     stdin_open: true
     tty: true
-    image: armaan1gohil/jupyter-pyspark:v1

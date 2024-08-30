@@ -1,5 +1,6 @@
 FROM apache/spark-py:v3.4.0
 
+# Working Directory Inside the Container
 WORKDIR /work_dir/
 
 USER root

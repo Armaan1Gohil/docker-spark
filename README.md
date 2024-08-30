@@ -1,7 +1,6 @@
 # Apache Spark with Docker Compose
 
-This repository contains a Docker Compose setup to run Apache Spark locally, including a master node, worker nodes, and a service to submit Spark jobs.
-
+This repository contains a Docker Compose setup to run Apache Spark locally.
 ## Prerequisites
 
 - [Docker](https://docs.docker.com/get-docker/)
